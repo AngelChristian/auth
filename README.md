@@ -69,9 +69,6 @@ Just clone the repository, run `npm install` and then `node index.js`. That's it
 
 If you want to run it on another port, just run `PORT=3000 node index.js` to run it on port 3000 or https://auth-webb.herokuapp.com
 
-## Issue Reporting
-
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
 
 ## Author
 
@@ -79,7 +76,7 @@ If you have found a bug or if you have a feature request, please report them at 
 
 ## License
 
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
+This project is licensed under the MIT license. See the [LICENSE](https://github.com/AngelChristian/auth/blob/master/LICENSE) file for more info.
 
 ## Use Postman
 
