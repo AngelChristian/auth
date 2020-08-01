@@ -23,12 +23,15 @@ var userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+     linkedinId:{
+       type: String,
+     },
   },
   {
     timestamps: true,
   }
 );
 
-
+userSchema.plugin(findOrCreate);
 
 module.exports = mongoose.model("User", userSchema);
